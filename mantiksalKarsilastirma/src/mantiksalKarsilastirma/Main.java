@@ -1,0 +1,34 @@
+package mantiksalKarsilastirma;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double product1=14.99;
+		double product2=12.99;
+		//eþit product1 eþit ise product2
+	
+		//product1 ucuz product1 küçük ise product2
+		
+		//product2 ucuz product2 küçük ise product1
+
+		if(product1==product2) {
+			System.out.println("Eþit");
+		}
+		if(product1<product2) {
+			System.out.println("1.ürün daha ucuz");
+		}
+		if(product2<product1) {
+			System.out.println("2.ürün daha ucuz");
+		}
+		
+		String yuzIfadesi="MUTLU";
+		if(yuzIfadesi=="mutlu"||yuzIfadesi=="Mutlu"||yuzIfadesi=="MUTLU"); {
+			System.out.println("(:");
+		}
+		if(yuzIfadesi=="üzgün"||yuzIfadesi=="Üzgün"||yuzIfadesi=="ÜZGÜN"); {
+			System.out.println("):");	
+		}
+	}
+		
+
+}
